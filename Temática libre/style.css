@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Nanum' ,'Gothic&display';
+    background: whitesmoke;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    position: relative;
+    border-bottom: solid red;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 125px;
+    color: white;
+    margin-left: 10px;
+}
+
+h2 {
+    font-size: 36px;
+    color: white;
+}
+
+section {
+    text-align: justify;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+}
+
+.rectangulo {
+    width: 100%;
+    height: 200px;
+    background:  #000AE1;
+    position: relative;
+}
+
+header .logo {
+    width: 125px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+}
+
+section .sectiondiv {
+    width: 480px;
+    height: 200px;
+    display: inline-flex;
+}
+
+footer .logo {
+    width: 125px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+.sectiondiv img {
+    width: 100%;
+    height: auto;
+}
